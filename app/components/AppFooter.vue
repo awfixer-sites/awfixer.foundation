@@ -11,7 +11,7 @@ defineProps<{ settings?: Content.SettingsDocument }>()
       aria-label="Footer"
     >
     <NuxtLink to="/">
-      <GlideLogo />
+      <img src="/awfixer.png" width="40" height="40" alt="Your Image">
       <span class="sr-only">{{ settings?.data.site_title }} home page</span>
     </NuxtLink>
 

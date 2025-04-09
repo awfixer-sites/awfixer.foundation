@@ -14,7 +14,7 @@ const isOpen = ref(false)
     >
       <div class="flex items-center justify-between">
         <NuxtLink to="/" class="z-50" @click="isOpen = false">
-          <GlideLogo />
+          <img src="/awfixer.png" width="40" height="40" alt="Your Image">
           <span class="sr-only">{{ settings?.data.site_title }} home page</span>
         </NuxtLink>
 
